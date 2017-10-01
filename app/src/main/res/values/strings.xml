@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Uma Gota que Constrói</string>
+    <string name="copyright">Projeto Uma Gota Que Constrói - Todos os Direitos Reservados 2017 - 2018</string>
+    <string name="collect">SOLICITAR COLETA</string>
+    <string name="purchase">COMPRAR</string>
+    <string name="historic">HISTÓRICO</string>
+    <string name="transparency">TRANSPARÊNCIA</string>
+</resources>
