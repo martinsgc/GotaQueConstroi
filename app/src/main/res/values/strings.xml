@@ -5,4 +5,6 @@
     <string name="purchase">COMPRAR</string>
     <string name="historic">HISTÓRICO</string>
     <string name="transparency">TRANSPARÊNCIA</string>
+    <string name="amount">QUANTIDADE</string>
+    <string name="information">Informações de armazenamento</string>
 </resources>
