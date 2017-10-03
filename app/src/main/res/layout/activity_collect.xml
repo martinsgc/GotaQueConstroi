@@ -15,11 +15,11 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:text="@string/copyright"
+        android:background="@color/colorPrimary"
         android:gravity="center"
-        android:textSize="9dp"
+        android:text="@string/copyright"
         android:textColor="@color/lettersLight"
-        android:background="@color/colorPrimary"/>
+        android:textSize="9dp" />
 
     <ImageButton
         android:id="@+id/imageButton5"
