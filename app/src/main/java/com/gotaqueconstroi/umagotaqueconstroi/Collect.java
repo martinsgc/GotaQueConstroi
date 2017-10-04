@@ -1,11 +1,13 @@
 package com.gotaqueconstroi.umagotaqueconstroi;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.renderscript.Double2;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -19,6 +21,8 @@ public class Collect extends AppCompatActivity {
         ImageButton btnColeta = (ImageButton) findViewById(R.id.btnColeta);
         final EditText txtQuantidade = (EditText) findViewById(R.id.txtQuantidade);
         ImageButton btnInformacao = (ImageButton) findViewById(R.id.btnInformacao);
+
+        
 
         btnColeta.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,5 +92,6 @@ public class Collect extends AppCompatActivity {
 
             }
         });
+
     }
 }
