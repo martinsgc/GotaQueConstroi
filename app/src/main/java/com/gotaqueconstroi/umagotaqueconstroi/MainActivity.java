@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         "que sensibilizasse a população para necessidade de cuidarmos do nosso meio ambiente.");
                 dialog.setCancelable(false);
                 dialog.setIcon(R.drawable.logo_pq);
-                dialog.setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                dialog.setNegativeButton("OK" , new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
