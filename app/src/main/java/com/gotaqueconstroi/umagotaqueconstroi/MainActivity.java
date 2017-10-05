@@ -9,11 +9,13 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String ARQUIVO_PREFERENCIA = "ArquivoPreferencia";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         ImageButton btnColeta = (ImageButton) findViewById(R.id.btnColeta);
         ImageButton btnComprar = (ImageButton) findViewById(R.id.btnComprar);
