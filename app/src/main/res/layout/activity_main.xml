@@ -123,14 +123,14 @@
         android:textColor="@color/lettersDark"/>
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/btnSobre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo_pq"
-        android:background="@null"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/textView4"
-        android:layout_toStartOf="@+id/textView4" />
+        android:layout_toStartOf="@+id/textView4"
+        android:background="@null"
+        app:srcCompat="@drawable/logo_pq" />
 </RelativeLayout>

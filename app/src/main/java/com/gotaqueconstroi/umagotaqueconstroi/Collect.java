@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import java.sql.Time;
+
 public class Collect extends AppCompatActivity {
 
     @Override
@@ -18,13 +20,16 @@ public class Collect extends AppCompatActivity {
         setContentView(R.layout.activity_collect);
         ImageButton btnColeta = (ImageButton) findViewById(R.id.btnColeta);
         final EditText txtQuantidade = (EditText) findViewById(R.id.txtQuantidade);
+        final EditText txtHorario = (EditText) findViewById(R.id.txtHorario);
         ImageButton btnInformacao = (ImageButton) findViewById(R.id.btnInformacao);
 
         btnColeta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Integer quantidade;
+                String horario;
                 String quantidadeDigitada;
+                horario = txtHorario.getText().toString();
                 quantidadeDigitada = txtQuantidade.getText().toString();
                 if(quantidadeDigitada.equals("")){
                     Toast.makeText(Collect.this, "Digite uma quantidade válida ", Toast.LENGTH_SHORT).show();
@@ -40,7 +45,8 @@ public class Collect extends AppCompatActivity {
                         //Titulo do Dialog
                         dialog.setTitle("Confirmação");
                         //Mensagem da Dialog
-                        dialog.setMessage("Confirma a doação de " + quantidade + " litros de óleo  ?");
+                        dialog.setMessage("Confirma a doação de " + quantidade + " litros de óleo, " +
+                        "com o melhor horário de coleta às " +horario +" horas?");
                         //Não deixar cancelar a Dialog
                         dialog.setCancelable(false);
                         //Definindo ícone
@@ -73,9 +79,13 @@ public class Collect extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder dialog;
                 dialog = new AlertDialog.Builder(Collect.this);
-                dialog.setTitle("Informação");
-                dialog.setMessage("Insira no campo acima a quantidade de litros de óleo usado que será " +
-                        "disponibilizado para doação e logo em seguida clique no botão abaixo.");
+                dialog.setTitle("Instruções");
+                dialog.setMessage("1 - Coloque o óleo que será coletado dentro de garrafas pet. \n \n"  +
+                        "2 - No campo quantidade, deverá ser informada a quantidade em litros \n \n" +
+                "3 - No campo melhor horário, deverá ser informado o melhor horário para coleta no formato 24h. \n \n" +
+                "4 - Após preencher todos os campos, basta clicar no botão verde. \n \n" +
+                "5 - Confirme os dados na tela a seguir. \n \n" +
+                "6 - Pronto, em poucos passos você ajudou o meio ambiente! Muito Obrigado. ;)");
                 dialog.setCancelable(false);
                 dialog.setIcon(android.R.drawable.ic_dialog_info);
                 dialog.setNegativeButton("OK", new DialogInterface.OnClickListener() {
