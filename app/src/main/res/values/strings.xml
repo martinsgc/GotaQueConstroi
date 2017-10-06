@@ -9,5 +9,11 @@
     <string name="information">Informações de armazenamento</string>
     <string name="better_time">MELHOR HORÁRIO</string>
     <string name="format_time">HH:MM</string>
+    <string name="neutro">NEUTRO</string>
+    <string name="aromatizado">AROMATIZADO</string>
+    <string name="valor_neutro">R$ 3,00</string>
+    <string name="valor_aromatizado">R$ 6,00</string>
+    <string name="quantidade">Quantidade:</string>
+
 
 </resources>

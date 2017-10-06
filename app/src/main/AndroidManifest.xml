@@ -21,7 +21,8 @@
         <activity
             android:name=".Collect"
             android:screenOrientation="portrait" />
-        <activity android:name=".Cadastro"></activity>
+        <activity android:name=".Cadastro" />
+        <activity android:name=".Venda"></activity>
     </application>
 
 </manifest>
