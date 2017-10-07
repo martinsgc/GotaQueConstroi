@@ -22,7 +22,10 @@
             android:name=".Collect"
             android:screenOrientation="portrait" />
         <activity android:name=".Cadastro" />
-        <activity android:name=".Venda"></activity>
+        <activity
+            android:name=".Venda"
+            android:screenOrientation="portrait"
+            ></activity>
     </application>
 
 </manifest>
