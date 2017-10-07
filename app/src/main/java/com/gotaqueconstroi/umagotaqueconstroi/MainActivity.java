@@ -31,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Chamar tela venda
+        btnComprar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Venda.class));
+            }
+        });
+
         //Botão Sobre
         btnSobre.setOnClickListener(new View.OnClickListener() {
             @Override
