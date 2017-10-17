@@ -1,4 +1,5 @@
 <resources>
+       
     <string name="app_name">Uma Gota que Constrói</string>
     <string name="copyright">Projeto Uma Gota Que Constrói - Todos os Direitos Reservados 2017 - 2018</string>
     <string name="collect">SOLICITAR COLETA</string>
@@ -11,13 +12,14 @@
     <string name="format_time">HH:MM</string>
     <string name="neutro">NEUTRO</string>
     <string name="aromatizado">AROMATIZADO</string>
-    <string name="valor_neutro">R$ 3,00</string>
-    <string name="valor_aromatizado">R$ 6,00</string>
+    <string name="valor_padrao">R$ 8,00</string>
     <string name="quantidade">Quantidade:</string>
     <string name="title_activity_principal">Principal</string>
-
+    <string name="unidades">6 UN</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
 
     <string name="action_settings">Settings</string>
 
