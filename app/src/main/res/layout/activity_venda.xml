@@ -166,7 +166,8 @@
         android:inputType="number"
         android:layout_below="@+id/textView29"
         android:layout_alignLeft="@+id/textView29"
-        android:layout_alignStart="@+id/textView29" />
+        android:layout_alignStart="@+id/textView29"
+        android:gravity="center"/>
 
     <EditText
         android:id="@+id/editText8"
@@ -176,6 +177,7 @@
         android:layout_alignStart="@+id/textView30"
         android:layout_below="@+id/textView30"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:gravity="center"/>
 
 </RelativeLayout>
