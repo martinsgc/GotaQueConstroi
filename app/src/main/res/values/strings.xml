@@ -18,6 +18,11 @@
     <string name="unidades">6 UN</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nome_cad">NOME:</string>
+    <string name="rua_cad">RUA:</string>
+    <string name="numero_cad">NÚMERO:</string>
+    <string name="bairro_cad">BAIRRO:</string>
+    <string name="telefone_cad">TELEFONE:</string>
 
 
 
