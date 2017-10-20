@@ -10,45 +10,45 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="27dp"
         android:text="@string/nome_cad"
-        android:textColor="@color/lettersDark"/>
+        android:textColor="@color/lettersDark"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:layout_toStartOf="@+id/imageButton5"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/textView7"
-        android:layout_toEndOf="@+id/textView7"
-        android:layout_toRightOf="@+id/textView7"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView7"
-        android:layout_alignRight="@+id/textView7"
-        android:layout_below="@+id/editText"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="21dp"
         android:text="@string/rua_cad"
-        android:textColor="@color/lettersDark"/>
+        android:textColor="@color/lettersDark"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/textView8"
-        android:layout_toEndOf="@+id/textView8"
-        android:layout_toRightOf="@+id/textView8"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView9"
