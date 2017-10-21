@@ -43,11 +43,27 @@ public class Principal extends AppCompatActivity
             }
         });
 
-        //Chamar tela venda
-        btnComprar.setOnClickListener(new View.OnClickListener(){
+        //Chamar tela Histórico
+        btnHistorico.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Principal.this, Venda.class));
+                startActivity(new Intent(Principal.this, Historico.class));
+            }
+        });
+
+        //Chamar tela Transparência
+        btnTransparencia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Principal.this, Transparencia.class));
+            }
+        });
+
+        //Chamar tela coleta
+        btnColeta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Principal.this, Collect.class));
             }
         });
 
@@ -127,25 +143,31 @@ public class Principal extends AppCompatActivity
 
         if (id == R.id.mnuComprar) {
             startActivity(new Intent(Principal.this, Venda.class));
-        } else if (id == R.id.mnuHistorico) {
 
+        } else if (id == R.id.mnuHistorico) {
+            startActivity(new Intent(Principal.this, Historico.class));
 
         } else if (id == R.id.mnuTransparencia) {
+            startActivity(new Intent(Principal.this, Transparencia.class));
 
         } else if (id == R.id.mnuColeta) {
             startActivity(new Intent(Principal.this, Collect.class));
 
         } else if (id == R.id.mnuInstituicoes) {
-
+            startActivity(new Intent(Principal.this, Instituicao.class));
 
         } else if (id == R.id.mnuSair) {
 
         } else if (id == R.id.mnuSobre) {
+            startActivity(new Intent(Principal.this, Sobre.class));
 
         } else if (id == R.id.mnuCadastro){
             startActivity(new Intent(Principal.this, Cadastro.class));
 
-        }
+        } else if (id == R.id.mnuContato) {
+        startActivity(new Intent(Principal.this, Contato.class));
+
+    }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

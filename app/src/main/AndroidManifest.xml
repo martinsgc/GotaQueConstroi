@@ -9,27 +9,29 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".Collect"
             android:screenOrientation="portrait" />
-
         <activity android:name=".Cadastro" />
         <activity
             android:name=".Venda"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Principal"
-            android:screenOrientation="portrait"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Contato" />
+        <activity android:name=".Sobre" />
+        <activity android:name=".Instituicao" />
+        <activity android:name=".Historico" />
+        <activity android:name=".Transparencia"></activity>
     </application>
 
 </manifest>

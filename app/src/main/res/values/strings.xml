@@ -1,5 +1,5 @@
 <resources>
-       
+
     <string name="app_name">Uma Gota que Constrói</string>
     <string name="copyright">Projeto Uma Gota Que Constrói - Todos os Direitos Reservados 2017 - 2018</string>
     <string name="collect">SOLICITAR COLETA</string>
@@ -24,7 +24,14 @@
     <string name="bairro_cad">BAIRRO:</string>
     <string name="telefone_cad">TELEFONE:</string>
     <string name="complemento_cad">COMPLEMENTO:</string>
-
+    <string name="projeto">Projeto Uma Gota que Constrói</string>
+    <string name="app">Aplicativo: Uma Gota</string>
+    <string name="versao">Versão 1.0.0</string>
+    <string name="fale_conosco">Fale conosco</string>
+    <string name="email">Email: contato@umagotaqueconstroi.com.br</string>
+    <string name="wpp">Whatsapp: (99) 9 9999-9999</string>
+    <string name="site">www.umagotaqueconstroi.com.br</string>
+    <string name="facebook">www.facebook.com/gota</string>
 
 
     <string name="action_settings">Settings</string>
