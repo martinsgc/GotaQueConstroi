@@ -59,11 +59,11 @@ public class Principal extends AppCompatActivity
             }
         });
 
-        //Chamar tela coleta
-        btnColeta.setOnClickListener(new View.OnClickListener() {
+        //Chamar tela Venda
+        btnComprar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Principal.this, Collect.class));
+                startActivity(new Intent(Principal.this, Venda.class));
             }
         });
 
