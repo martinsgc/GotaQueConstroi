@@ -67,6 +67,7 @@ public class Collect extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Toast.makeText(Collect.this, "Agradecemos a doação, em breve iremos recolher !", Toast.LENGTH_LONG).show();
+                                finish();
                             }
                         });
                         //Criar a Dialog
@@ -78,6 +79,8 @@ public class Collect extends AppCompatActivity {
 
             }
         });
+
+        //Botão de informações - O Azulzinho
         btnInformacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

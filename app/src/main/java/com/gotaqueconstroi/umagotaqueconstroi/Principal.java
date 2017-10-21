@@ -96,13 +96,13 @@ public class Principal extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
-    @Override
+    //Comentado para remover ... Settings da barra superior
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.principal, menu);
         return true;
-    }
+    } */
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -125,19 +125,28 @@ public class Principal extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.cadastro) {
+        if (id == R.id.mnuComprar) {
+            startActivity(new Intent(Principal.this, Venda.class));
+        } else if (id == R.id.mnuHistorico) {
+
+
+        } else if (id == R.id.mnuTransparencia) {
+
+        } else if (id == R.id.mnuColeta) {
+            startActivity(new Intent(Principal.this, Collect.class));
+
+        } else if (id == R.id.mnuInstituicoes) {
+
+
+        } else if (id == R.id.mnuSair) {
+
+        } else if (id == R.id.mnuSobre) {
+
+        } else if (id == R.id.mnuCadastro){
             startActivity(new Intent(Principal.this, Cadastro.class));
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
 
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

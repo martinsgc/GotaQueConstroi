@@ -7,7 +7,7 @@
     tools:context="com.gotaqueconstroi.umagotaqueconstroi.Venda">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnInformacaoVenda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"
@@ -20,13 +20,13 @@
         android:layout_marginBottom="16dp" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/btnCompra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/button_venda"
+        android:layout_above="@+id/btnInformacaoVenda"
+        android:layout_centerHorizontal="true"
         android:background="@null"
-        android:layout_above="@+id/imageButton"
-        android:layout_centerHorizontal="true" />
+        app:srcCompat="@drawable/button_venda" />
 
     <TextView
         android:id="@+id/textView"
@@ -42,7 +42,7 @@
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnAromatizado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="14dp"
@@ -55,13 +55,13 @@
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnNeutro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/neutro"
-        android:layout_alignTop="@+id/imageButton2"
-        android:layout_alignRight="@+id/imageButton"
-        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignTop="@+id/btnAromatizado"
+        android:layout_alignRight="@+id/btnInformacaoVenda"
+        android:layout_alignEnd="@+id/btnInformacaoVenda"
         android:background="@null"/>
 
     <TextView
@@ -71,9 +71,9 @@
         android:text="@string/aromatizado"
         android:textSize="18dp"
         android:gravity="center"
-        android:layout_below="@+id/imageButton2"
-        android:layout_alignLeft="@+id/imageButton2"
-        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/btnAromatizado"
+        android:layout_alignLeft="@+id/btnAromatizado"
+        android:layout_alignStart="@+id/btnAromatizado"
         android:layout_marginTop="11dp"
         android:textColor="@color/lettersDark"/>
 
@@ -86,8 +86,8 @@
         android:textSize="18dp"
         android:layout_alignBaseline="@+id/textView17"
         android:layout_alignBottom="@+id/textView17"
-        android:layout_alignLeft="@+id/imageButton3"
-        android:layout_alignStart="@+id/imageButton3"
+        android:layout_alignLeft="@+id/btnNeutro"
+        android:layout_alignStart="@+id/btnNeutro"
         android:textColor="@color/lettersDark"/>
 
     <TextView
@@ -159,25 +159,25 @@
         android:textSize="17dp"/>
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/txtQuantAromatizado"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:layout_below="@+id/textView29"
         android:layout_alignLeft="@+id/textView29"
         android:layout_alignStart="@+id/textView29"
-        android:gravity="center"/>
+        android:layout_below="@+id/textView29"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/txtQuantNeutro"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView30"
         android:layout_alignStart="@+id/textView30"
         android:layout_below="@+id/textView30"
         android:ems="10"
-        android:inputType="number"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:inputType="number" />
 
 </RelativeLayout>

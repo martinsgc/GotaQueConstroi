@@ -3,40 +3,40 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/cadastro"
-            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/mnuComprar"
+            android:icon="@drawable/ico_comprar"
             android:title="Comprar" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/mnuHistorico"
+            android:icon="@drawable/ico_historico"
             android:title="Histórico" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/mnuColeta"
+            android:icon="@drawable/ico_coleta"
             android:title="Solicitar Coleta" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:id="@+id/mnuTransparencia"
+            android:icon="@drawable/ico_tranparencia"
             android:title="Transparência" />
     </group>
 
     <item android:title="Configurações">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+                android:id="@+id/mnuCadastro"
+                android:icon="@drawable/ico_cadastro"
                 android:title="Cadastro" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
+                android:id="@+id/mnuInstituicoes"
+                android:icon="@drawable/ico_instituicao"
                 android:title="Instituições" />
             <item
-                android:id="@+id/nav_sobre"
-                android:icon="@drawable/ic_menu_send"
+                android:id="@+id/mnuSobre"
+                android:icon="@drawable/ico_sobre"
                 android:title="Sobre o Projeto" />
             <item
-                android:id="@+id/nav_sair"
-                android:icon="@drawable/ic_menu_send"
+                android:id="@+id/mnuSair"
+                android:icon="@drawable/ico_sair"
                 android:title="Sair" />
         </menu>
     </item>
