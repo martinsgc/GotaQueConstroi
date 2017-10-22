@@ -33,7 +33,7 @@ public class Principal extends AppCompatActivity
         ImageButton btnComprar = (ImageButton) findViewById(R.id.btnComprar);
         ImageButton btnHistorico = (ImageButton) findViewById(R.id.btnHistorico);
         ImageButton btnTransparencia = (ImageButton) findViewById(R.id.btnTransparencia);
-        ImageButton btnSobre = (ImageButton) findViewById(R.id.btnSobre);
+
 
         //Chamar tela coleta
         btnColeta.setOnClickListener(new View.OnClickListener() {
@@ -67,29 +67,7 @@ public class Principal extends AppCompatActivity
             }
         });
 
-        //Botão Sobre
-        btnSobre.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AlertDialog.Builder dialog;
-                dialog = new AlertDialog.Builder(Principal.this);
-                dialog.setTitle("Sobre o  Projeto");
-                dialog.setMessage("O Uma Gota que Constrói surgiu através da necessidade de um" +
-                        " projeto que pudesse gerar renda, mas que fosse além de uma idéia financeira... Que fosse algo " +
-                        "que sensibilizasse a população para necessidade de cuidarmos do nosso meio ambiente.");
-                dialog.setCancelable(false);
-                dialog.setIcon(R.drawable.logo_pq);
-                dialog.setNegativeButton("OK" , new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
 
-                    }
-                });
-                dialog.create();
-                dialog.show();
-
-            }
-        });
 
 
 
@@ -153,10 +131,7 @@ public class Principal extends AppCompatActivity
         } else if (id == R.id.mnuColeta) {
             startActivity(new Intent(Principal.this, Collect.class));
 
-        } else if (id == R.id.mnuInstituicoes) {
-            startActivity(new Intent(Principal.this, Instituicao.class));
-
-        } else if (id == R.id.mnuSair) {
+        }  else if (id == R.id.mnuSair) {
 
         } else if (id == R.id.mnuSobre) {
             startActivity(new Intent(Principal.this, Sobre.class));
@@ -164,10 +139,7 @@ public class Principal extends AppCompatActivity
         } else if (id == R.id.mnuCadastro){
             startActivity(new Intent(Principal.this, Cadastro.class));
 
-        } else if (id == R.id.mnuContato) {
-        startActivity(new Intent(Principal.this, Contato.class));
-
-    }
+        }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -32,9 +32,29 @@
     <string name="wpp">Whatsapp: (99) 9 9999-9999</string>
     <string name="site">www.umagotaqueconstroi.com.br</string>
     <string name="facebook">www.facebook.com/gota</string>
+    <string name="associacao">Associação de Bairro</string>
+    <string name="apae">APAE</string>
+    <string name="capsad">CAPS AD</string>
+    <string name="caps">CAPS</string>
 
 
     <string name="action_settings">Settings</string>
+
+    <string name="desc_apae"> 	Associação em que, além de pais e amigos dos excepcionais, toda a
+        comunidade se une para prevenir e tratar a deficiência e promover o bem estar e
+        desenvolvimento da pessoa com deficiência.</string>
+
+    <string name="desc_associacao"> Tem o objetivo de centralizar os problemas que ocorrem no bairro
+        e através de um representante eleito pelos moradores, estes problemas são levados ao conhecimento
+        do poder executivo municipal e cobradas as necessárias providências</string>
+
+    <string name="desc_caps"> Presta atendimento a pessoas com grave sofrimento psíquico, diminuindo
+        e evitando internações psiquiátricas, e articular-se com a rede de serviços da comunidade
+        favorecendo a reinserção delas a este espaço.</string>
+
+    <string name="desc_capsad">Destina-se ao atendimento de usuários com transtornos mentais decorrentes
+        do uso e dependência de substâncias psicoativas (incluindo o álcool), oferecendo tratamento
+        com ênfase na redução de danos e o estímulo a novos hábitos,</string>
 
 
 </resources>

@@ -26,18 +26,12 @@
                 android:id="@+id/mnuCadastro"
                 android:icon="@drawable/ico_cadastro"
                 android:title="Cadastro" />
-            <item
-                android:id="@+id/mnuInstituicoes"
-                android:icon="@drawable/ico_instituicao"
-                android:title="Instituições" />
+
             <item
                 android:id="@+id/mnuSobre"
                 android:icon="@drawable/ico_sobre"
                 android:title="Sobre o Projeto" />
-            <item
-                android:id="@+id/mnuContato"
-                android:icon="@drawable/ico_contato"
-                android:title="Contato" />
+
             <item
                 android:id="@+id/mnuSair"
                 android:icon="@drawable/ico_sair"

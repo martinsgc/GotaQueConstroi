@@ -46,10 +46,10 @@
                         android:layout_marginLeft="25dp"
                         android:layout_marginRight="25dp"
                         android:layout_marginTop="25dp"
+                        android:layout_weight="0.11"
                         android:text="@string/projeto"
                         android:textColor="@color/lettersDark"
-                        android:textSize="25dp"
-                        android:layout_weight="0.11" />
+                        android:textSize="25dp" />
 
                     <TextView
                         android:id="@+id/textView21"
@@ -71,6 +71,15 @@
                         android:layout_weight="0.13"
                         android:text="@string/versao"
                         android:textColor="@color/lettersDark" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.11"
+                        android:text="@string/site"
+                        android:layout_marginLeft="25dp"
+                        android:textColor="@color/lettersDark"/>
 
                 </LinearLayout>
 
