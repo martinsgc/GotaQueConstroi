@@ -39,7 +39,6 @@
         android:layout_marginTop="15dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="Litros"
         android:inputType="number"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
@@ -89,7 +88,6 @@
         android:inputType="time"
         android:gravity="center"
         android:textColor="@color/colorPrimaryDark"
-        android:hint="@string/format_time"
         android:layout_below="@+id/textView16"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp" />
