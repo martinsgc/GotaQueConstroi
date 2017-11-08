@@ -116,7 +116,7 @@ public class Venda extends AppCompatActivity {
                 AlertDialog.Builder dialog;
                 dialog = new AlertDialog.Builder(Venda.this);
                 dialog.setTitle("Sabão Neutro");
-                dialog.setMessage(" Melhor uso Sabão neutro");
+                dialog.setMessage(" Melhor utilizado para lavar louças.");
                 dialog.setCancelable(false);
                 dialog.setIcon(android.R.drawable.ic_dialog_info);
                 dialog.setNegativeButton("OK", new DialogInterface.OnClickListener() {
@@ -136,7 +136,7 @@ public class Venda extends AppCompatActivity {
                 AlertDialog.Builder dialog;
                 dialog = new AlertDialog.Builder(Venda.this);
                 dialog.setTitle("Sabão Aromatizado");
-                dialog.setMessage(" Melhor uso Sabão aromatizado");
+                dialog.setMessage(" Melhor utilizado para lavar roupas, deixando um aroma suave.");
                 dialog.setCancelable(false);
                 dialog.setIcon(android.R.drawable.ic_dialog_info);
                 dialog.setNegativeButton("OK", new DialogInterface.OnClickListener() {

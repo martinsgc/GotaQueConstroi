@@ -40,7 +40,7 @@
                 android:layout_marginTop="21dp" >
 
                 <RadioButton
-                    android:id="@+id/radioButton4"
+                    android:id="@+id/rdbApae"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -57,7 +57,7 @@
                     android:layout_marginRight="25dp"/>
 
                 <RadioButton
-                    android:id="@+id/radioButton3"
+                    android:id="@+id/rdbAssociacao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -73,7 +73,7 @@
                     android:layout_marginRight="25dp"/>
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/rdbCaps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -89,12 +89,12 @@
                     android:layout_marginRight="25dp"/>
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/rdbCapsAd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/capsad"
-                    android:background="@null"/>
+                    android:background="@null"
+                    android:text="@string/capsad" />
 
                 <TextView
                     android:id="@+id/textView36"
@@ -110,7 +110,7 @@
     </ScrollView>
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnConcluir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView"

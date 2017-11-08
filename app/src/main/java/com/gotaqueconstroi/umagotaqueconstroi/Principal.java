@@ -1,11 +1,7 @@
 package com.gotaqueconstroi.umagotaqueconstroi;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -13,7 +9,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageButton;
 
@@ -39,11 +34,11 @@ public class Principal extends AppCompatActivity
         btnColeta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Principal.this, Collect.class));
+                startActivity(new Intent(Principal.this, Coleta.class));
             }
         });
 
-        //Chamar tela Histórico
+        /* Chamar tela Histórico
         btnHistorico.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -51,13 +46,13 @@ public class Principal extends AppCompatActivity
             }
         });
 
-        //Chamar tela Transparência
+        // Chamar tela Transparência
         btnTransparencia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Principal.this, Transparencia.class));
             }
-        });
+        }); */
 
         //Chamar tela Venda
         btnComprar.setOnClickListener(new View.OnClickListener() {
@@ -122,14 +117,14 @@ public class Principal extends AppCompatActivity
         if (id == R.id.mnuComprar) {
             startActivity(new Intent(Principal.this, Venda.class));
 
-        } else if (id == R.id.mnuHistorico) {
-            startActivity(new Intent(Principal.this, Historico.class));
+       // } else if (id == R.id.mnuHistorico) {
+       //     startActivity(new Intent(Principal.this, Historico.class));
 
-        } else if (id == R.id.mnuTransparencia) {
-            startActivity(new Intent(Principal.this, Transparencia.class));
+       // } else if (id == R.id.mnuTransparencia) {
+        //    startActivity(new Intent(Principal.this, Transparencia.class));
 
         } else if (id == R.id.mnuColeta) {
-            startActivity(new Intent(Principal.this, Collect.class));
+            startActivity(new Intent(Principal.this, Coleta.class));
 
         }  else if (id == R.id.mnuSair) {
 
