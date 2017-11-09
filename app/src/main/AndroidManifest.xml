@@ -12,7 +12,9 @@
         <activity
             android:name=".Coleta"
             android:screenOrientation="portrait" />
-        <activity android:name=".Cadastro" />
+        <activity
+            android:name=".Cadastro"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Venda"
             android:screenOrientation="portrait" />
@@ -27,10 +29,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Sobre" />
-        <activity android:name=".Instituicao" />
-        <activity android:name=".Historico" />
-        <activity android:name=".Transparencia"></activity>
+        <activity
+            android:name=".Sobre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Instituicao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Historico"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transparencia"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

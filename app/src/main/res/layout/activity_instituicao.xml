@@ -30,6 +30,7 @@
             android:layout_height="match_parent">
 
             <RadioGroup
+                android:id="@+id/rgInstituicao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -37,7 +38,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="19dp"
                 android:layout_marginStart="19dp"
-                android:layout_marginTop="21dp" >
+                android:layout_marginTop="21dp">
 
                 <RadioButton
                     android:id="@+id/rdbApae"
@@ -51,10 +52,10 @@
                     android:id="@+id/textView33"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/desc_apae"
                     android:layout_marginLeft="35dp"
-                    android:layout_marginRight="25dp"/>
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/desc_apae" />
 
                 <RadioButton
                     android:id="@+id/rdbAssociacao"
@@ -67,10 +68,10 @@
                     android:id="@+id/textView34"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/desc_associacao"
                     android:layout_marginLeft="35dp"
-                    android:layout_marginRight="25dp"/>
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/desc_associacao" />
 
                 <RadioButton
                     android:id="@+id/rdbCaps"
@@ -83,10 +84,10 @@
                     android:id="@+id/textView35"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/desc_caps"
                     android:layout_marginLeft="35dp"
-                    android:layout_marginRight="25dp"/>
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/desc_caps" />
 
                 <RadioButton
                     android:id="@+id/rdbCapsAd"
@@ -100,10 +101,10 @@
                     android:id="@+id/textView36"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/desc_capsad"
                     android:layout_marginLeft="35dp"
-                    android:layout_marginRight="25dp"/>
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:text="@string/desc_capsad" />
             </RadioGroup>
         </RelativeLayout>
 
