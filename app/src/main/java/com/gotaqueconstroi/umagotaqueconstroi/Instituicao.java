@@ -32,22 +32,23 @@ public class Instituicao extends AppCompatActivity {
                 String instituicao = null;
 
 
-                 if (rdbApae.isSelected()) {
+                 if (rdbApae.isChecked()) {
                     instituicao = "APAE";
 
-                } else if (rdbAssociacao.isSelected()) {
+                } else if (rdbAssociacao.isChecked()) {
                     instituicao = "Associação de Bairro";
 
-                } else if (rdbCaps.isSelected()) {
+                } else if (rdbCaps.isChecked()) {
                     instituicao = "CAPS";
 
-                } else if (rdbCapsAd.isSelected()) {
+                } else if (rdbCapsAd.isChecked()) {
                     instituicao = "CAPS AD";
 
                 } else {
-                    Toast.makeText(Instituicao.this, "Favor selecione uma instituição!", Toast.LENGTH_SHORT).show();
+                     Toast.makeText(Instituicao.this, "Favor selecione uma instituição!", Toast.LENGTH_SHORT).show();
+                 }
 
-                    if (rdbApae.isSelected() || rdbAssociacao.isSelected() || rdbCaps.isSelected() || rdbCapsAd.isSelected()) {
+                    if (rdbApae.isChecked() || rdbAssociacao.isChecked() || rdbCaps.isChecked() || rdbCapsAd.isChecked()) {
                         //Criar Alert Dialog
                         AlertDialog.Builder dialog;
                         dialog = new AlertDialog.Builder(Instituicao.this);
@@ -64,14 +65,14 @@ public class Instituicao extends AppCompatActivity {
                         dialog.setNegativeButton("Não", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(Instituicao.this, "Caadastro não realizado!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(Instituicao.this, "Cadastro não realizado!", Toast.LENGTH_LONG).show();
                             }
                         });
                         //Botao positivo
                         dialog.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(Instituicao.this, "Caadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
+                                Toast.makeText(Instituicao.this, "Cadastro realizado com sucesso!", Toast.LENGTH_LONG).show();
                                 finish();
                             }
                         });
@@ -82,7 +83,6 @@ public class Instituicao extends AppCompatActivity {
 
 
                     }
-                }
 
             }
         });
